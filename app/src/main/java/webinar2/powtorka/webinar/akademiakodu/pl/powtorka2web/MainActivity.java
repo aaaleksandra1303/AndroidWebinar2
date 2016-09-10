@@ -41,4 +41,6 @@ public class MainActivity extends Activity {
         Toast.makeText(this,"Heeeej Ola, przycisk dziala :D",Toast.LENGTH_LONG).show();
 
     }
+
+    //TODO all things to do :)
 }
