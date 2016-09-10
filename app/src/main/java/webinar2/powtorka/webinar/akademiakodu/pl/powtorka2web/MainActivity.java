@@ -69,17 +69,19 @@ public class MainActivity extends Activity {
 
         }
 
+
+        @Override
+        public void onProgressUpdate(Integer ... args){
+               progressBar.setProgress(args[0]);
+
+
+        }
+
         @Override
         public  void onPostExecute(Void args)
         {
 
         }
-        @Override
-        public void onProgressUpdate(Void ... args)
-        {
-
-        }
-
 
 
 
