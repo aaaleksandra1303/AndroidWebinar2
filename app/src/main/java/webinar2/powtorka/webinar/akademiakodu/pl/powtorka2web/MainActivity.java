@@ -34,6 +34,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        new NewTask().execute();
 
         //text = (TextView)findViewById(R.id.textView2);
 
@@ -80,6 +81,7 @@ public class MainActivity extends Activity {
         @Override
         public  void onPostExecute(Void args)
         {
+            Toast.makeText(MainActivity.this," ProgressBar dziala, udalo sie skonczone!!!",Toast.LENGTH_LONG).show();
 
         }
 
