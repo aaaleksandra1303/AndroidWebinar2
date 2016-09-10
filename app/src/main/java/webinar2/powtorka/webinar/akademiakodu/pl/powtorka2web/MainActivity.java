@@ -3,11 +3,13 @@ package webinar2.powtorka.webinar.akademiakodu.pl.powtorka2web;
 import android.app.Activity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends Activity {
 
@@ -15,8 +17,8 @@ public class MainActivity extends Activity {
     @BindView(R.id.textView2)
    public TextView text;
 
-    @BindView(R.id.button)
-    public Button button;
+   //@BindView(R.id.button)
+    //public Button button;
 
 
 
@@ -29,6 +31,12 @@ public class MainActivity extends Activity {
 
         //text = (TextView)findViewById(R.id.textView2);
 
+
+    }
+
+    @OnClick(R.id.button)
+    public void buttonClick(View view)
+    {
 
     }
 }
