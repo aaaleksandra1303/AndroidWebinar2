@@ -2,6 +2,7 @@ package webinar2.powtorka.webinar.akademiakodu.pl.powtorka2web;
 
 import android.app.Activity;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -43,4 +44,13 @@ public class MainActivity extends Activity {
     }
 
     //TODO all things to do :)
+
+    private class NewTask extends AsyncTask<Void,Void,Void>
+    {
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            return null;
+        }
+    }
 }
