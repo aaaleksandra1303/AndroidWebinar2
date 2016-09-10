@@ -52,5 +52,20 @@ public class MainActivity extends Activity {
         protected Void doInBackground(Void... params) {
             return null;
         }
+
+        @Override
+        public  void onPostExecute(Void args)
+        {
+
+        }
+        @Override
+        public void onProgressUpdate(Void ... args)
+        {
+
+        }
+
+
+
+
     }
 }
